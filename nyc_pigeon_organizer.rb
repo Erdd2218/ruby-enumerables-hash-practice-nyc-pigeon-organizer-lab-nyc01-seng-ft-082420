@@ -10,14 +10,14 @@ def nyc_pigeon_organizer(data)
         end 
         
         if !pigeon_name[name][k]
-          !pigeon_name[name][k] = []
+          pigeon_name[name][k] = []
         end 
         
         pigeon_name[name][k].push(new_v).to_s 
       end
     end
   end 
-  pigeon_name
+ 
 end 
 
 
