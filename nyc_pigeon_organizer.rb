@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
  data.each do |k, v|
    v.each do |inner_value, name|
      k.each do |names|
+      
        if !pigeon_name[names]
          pigeon_name[names] = {}
        end 
