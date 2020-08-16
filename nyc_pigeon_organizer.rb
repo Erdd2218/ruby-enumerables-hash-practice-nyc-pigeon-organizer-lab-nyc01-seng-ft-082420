@@ -1,6 +1,5 @@
 def nyc_pigeon_organizer(data)
- pigeon_name = {}
- 
+# pigeon_name = {}
  data.each do |k, v|
    v.each do |new_value, name|
      name.each do |names|
